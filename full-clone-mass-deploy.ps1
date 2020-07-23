@@ -1,8 +1,8 @@
 ﻿ #region VARIABLE BLOCK
 
-$vcenterServer = "vcenter.int.sentania.net"
-$targetDatastore = "vsanDatastore"
-$cluster = "Cluster 1"
+$vcenterServer = "r29jj-app01-vcc.row29.local"
+$targetDatastore = "VxRail-Virtual-SAN-Datastore-4b949eff-86f9-46dc-a825-fb2750e620da"
+$cluster = "VxRail-Virtual-SAN-Cluster-4b949eff-86f9-46dc-a825-fb2750e620da"
 $targetVMCount = 100
 $baseVM = "centOS7-template"
 # Fake array of systems
